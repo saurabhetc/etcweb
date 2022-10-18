@@ -10,9 +10,9 @@ $(function() {
 	$(form).submit(function(e) {
 		// Stop the browser from submitting the form.
 		e.preventDefault();
-
+return;
 		// Serialize the form data.
-		var formData = $(form).serialize();
+		/*var formData = $(form).serialize();
 
 		// Submit the form using AJAX.
 		$.ajax({
@@ -43,6 +43,6 @@ $(function() {
 				$(formMessages).text('Oops! An error occured and your message could not be sent.');
 			}
 		});
-	});
+	});*/
 
 });
